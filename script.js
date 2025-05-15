@@ -25,3 +25,4 @@ const getJoke = async () => {
 };
 
 getJokeButton.addEventListener('click', getJoke);
+document.addEventListener('DOMContentLoaded', getJoke);
